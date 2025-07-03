@@ -42,13 +42,6 @@ img {
        url('../font/MarthilineDEMO.woff2') format('woff2');
 } 
 
- /* 로딩화면*/
-.loader {
-    background-image: url('../images/loadimg.webp');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 header {
     background-image:url('../images/thum.jpg')
 }

@@ -11,6 +11,9 @@
     font-size: 30px;
     max-width: 470px;
     margin: 0 auto;
+    background-image: url('../images/loadimg.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .loader p {
