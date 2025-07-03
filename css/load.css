@@ -1,10 +1,10 @@
 .loader {
     width: 100%;
-    height: 1vh;
+    height: 100vh;
     position: fixed;
-    top: 0;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -50%);
     font-family: 'MarthilineDEMO';
     font-weight: 100;
     line-height: 40px;
@@ -14,6 +14,7 @@
     background-image: url('../images/loadimg.webp');
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: #fff;
 }
 
 .loader p {
