@@ -4,7 +4,8 @@
     background-color: #000;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
     font-family: 'MarthilineDEMO';
     font-weight: 100;
     line-height: 40px;
@@ -37,6 +38,7 @@
     animation: text 2s 4s ease-in-out;
 
 }
+
 .loader video {
     width: 100%;
     height: fit-content;

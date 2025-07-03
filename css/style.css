@@ -33,6 +33,7 @@ img {
      background-color: #ccc;
      width: 100%;
      max-width: 470px;
+     margin: 0 auto;
  }
 
 @font-face {
