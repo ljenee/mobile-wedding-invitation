@@ -1,0 +1,55 @@
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'MarthilineDEMO';
+    font-weight: 100;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.loader p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    opacity: 0;
+}
+
+.loader p:nth-child(1) {
+    animation: text 2s ease-in-out;
+    background-image: url('');
+}
+
+.loader p:nth-child(2) {
+    animation: text 2s 2s ease-in-out;
+    background-image: url('');
+}
+
+.loader p:nth-child(3) {
+    animation: text 2s 4s ease-in-out;
+    background-image: url('');
+}
+
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

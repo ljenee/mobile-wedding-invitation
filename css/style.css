@@ -1,0 +1,51 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #745449
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 100;
+}
+
+p {
+}
+
+img {
+    display: block;
+    z-index: 2;
+}
+
+ body {
+     font-family: 'pretendard';
+     font-size: 14px;
+     line-height: 24px;
+     background-color: #ccc;
+     width: 100%;
+     max-width: 470px;
+ }
+
+@font-face {
+  font-family: 'MarthilineDEMO';
+  src: url(../font/MarthilineDEMO.woff) format('woff'),
+       url(../font/MarthilineDEMO.woff2) format('woff2');
+} 
+
+ /* 로딩화면*/
+.loader {
+    background-size: cover;
+}
+
+header {
+    background-image:url('https://files.catbox.moe/f8d316.webp')
+}
