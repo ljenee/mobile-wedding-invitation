@@ -38,6 +38,9 @@
 .loader video {
     width: 100%;
     height: fit-content;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 @keyframes text {
