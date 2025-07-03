@@ -38,12 +38,13 @@ img {
 
 @font-face {
   font-family: 'MarthilineDEMO';
-  src: url(../font/MarthilineDEMO.woff) format('woff'),
-       url(../font/MarthilineDEMO.woff2) format('woff2');
+  src: url('../font/MarthilineDEMO.woff') format('woff'),
+       url('../font/MarthilineDEMO.woff2') format('woff2');
 } 
 
  /* 로딩화면*/
 .loader {
+    background-image: url('../images/loadimg.webp');
     background-size: cover;
 }
 

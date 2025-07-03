@@ -38,15 +38,6 @@
 
 }
 
-.loader video {
-    width: 100%;
-    height: fit-content;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-}
-
 @keyframes text {
     0% {
         opacity: 0;
