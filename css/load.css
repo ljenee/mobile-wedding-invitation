@@ -9,6 +9,8 @@
     font-weight: 100;
     line-height: 40px;
     font-size: 30px;
+    max-width: 470px;
+    margin: 0 auto;
 }
 
 .loader p {
