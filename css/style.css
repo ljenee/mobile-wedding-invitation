@@ -45,7 +45,8 @@ img {
  /* 로딩화면*/
 .loader {
     background-image: url('../images/loadimg.webp');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 header {
